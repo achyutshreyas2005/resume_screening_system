@@ -153,7 +153,7 @@ resume-screening-system/
 │   ├── auth.py              ← JWT + bcrypt authentication
 │   ├── database.py          ← JSON-based user storage
 │   ├── requirements.txt     ← Python dependencies
-│   └── render.yaml          ← Render deployment config
+│   
 │
 ├── frontend/
 │   ├── public/
@@ -174,7 +174,6 @@ resume-screening-system/
 │       ├── App.jsx          ← Routing + protected routes
 │       └── index.js
 │
-├── render.yaml              ← Full-stack deployment config
 └── README.md
 ```
 
