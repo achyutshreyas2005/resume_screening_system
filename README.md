@@ -4,16 +4,6 @@ An intelligent, full-stack resume screening system that automates candidate shor
 
 ---
 
-## 🌐 Live Demo
-
-| Service | URL |
-|---|---|
-| Frontend | `https://resume-screener-frontend.onrender.com` |
-| Backend API | `https://resume-screener-api.onrender.com` |
-| API Docs | `https://resume-screener-api.onrender.com/docs` |
-
----
-
 ## ✨ Features
 
 - 🔐 JWT-based HR login and registration
