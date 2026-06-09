@@ -201,8 +201,8 @@ resume-screening-system/
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/resume-screening-system.git
-cd resume-screening-system/backend
+git clone https://github.com/achyutshreyas2005/resume_screening_system.git
+cd resume_screening_system/backend
 
 # Create virtual environment
 python -m venv venv
@@ -225,7 +225,7 @@ API docs at: `http://localhost:8000/docs`
 ### Frontend Setup
 
 ```bash
-cd resume-screening-system/frontend
+cd resume_screening_system/frontend
 
 # Install dependencies
 npm install
