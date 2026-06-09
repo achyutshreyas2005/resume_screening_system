@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temp files created during screening
+temp_*
+
+# User database (contains passwords — never push)
+users.json
+
+# Sentence transformer cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
