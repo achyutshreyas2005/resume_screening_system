@@ -37,7 +37,7 @@ const UploadBox = ({ label, multiple, onFiles }) => {
         <p className="text-sm text-gray-600">
           <span className="text-blue-600 font-medium">Click to upload</span> or drag and drop
         </p>
-        <p className="text-xs text-gray-400 mt-1">PDF files only</p>
+        <p className="text-xs text-gray-400 mt-1">PDF, Word (.docx), or Text (.txt)</p>
         <input
           ref={inputRef}
           type="file"
