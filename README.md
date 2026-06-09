@@ -104,8 +104,8 @@ PDF / DOCX / TXT Resume
 
 ## 📡 API Endpoints
 
-| Method | Endpoint | Auth | Description |
-|---|---|---|---|
+| Method | Endpoint | Auth |
+|---|---|---|
 | GET | `/` | Health check |
 | POST | `/register` | Create HR account |
 | POST | `/login` | Login, returns JWT token |
