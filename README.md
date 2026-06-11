@@ -74,14 +74,13 @@ PDF / DOCX / TXT Resume
 
 | Factor | Weight | Description |
 |---|---|---|
-| Skills Match | **30%** | JD skills found in resume |
-| Experience Relevance | **25%** | Work experience match with JD |
-| Projects & Achievements | **20%** | Hands-on work, metrics, hackathons |
-| Semantic Similarity | **10%** | BERT understands meaning not just keywords |
+| Semantic Similarity | **40%** | BERT understands meaning not just keywords |
+| Skills Match | **25%** | JD skills found in resume |
+| Projects & Achievements | **15%** | Hands-on work, metrics, hackathons |
+| Experience Relevance | **10%** | Work experience match with JD |
 | Education | **5%** | Degree level and relevance |
-| Certifications | **5%** | NPTEL, Coursera, AWS, etc. |
-| Resume Quality | **3%** | Completeness — email, phone, sections |
-| Extra Signals | **2%** | GitHub, LinkedIn, leadership, publications |
+| Certifications | **3%** | NPTEL, Coursera, AWS, etc. |
+| Resume Quality | **2%** | Completeness — email, phone, sections |
 
 ### Status Thresholds
 | Status | Score |
@@ -148,11 +147,13 @@ files    → File[] (PDF / DOCX / TXT) — One or more resumes
 resume-screening-system/
 ├── backend/
 │   ├── main.py              ← FastAPI app, all endpoints
-│   ├── resume_parser.py     ← PDF/DOCX/TXT text extraction
+│   ├── resume_parser.py     ← PDF/DOCX/TXT text extraction for resume
 │   ├── matcher.py           ← 8-factor scoring pipeline
 │   ├── auth.py              ← JWT + bcrypt authentication
 │   ├── database.py          ← JSON-based user storage
 │   ├── requirements.txt     ← Python dependencies
+│   ├── jd_parser.py     ← PDF/DOCX/TXT text extraction for job description
+        
 │   
 │
 ├── frontend/
