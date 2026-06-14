@@ -8,7 +8,7 @@ An intelligent, full-stack resume screening system that automates candidate shor
 
 - 🔐 JWT-based HR login and registration
 - 📄 Upload JD and resumes as PDF, DOCX, or TXT
-- 🧠 8-factor weighted scoring pipeline
+- 🧠 7-factor weighted scoring pipeline
 - 🤖 Sentence-BERT semantic similarity matching
 - 🔁 Cross-Encoder re-ranking for higher accuracy
 - 📊 Analytics dashboard with charts
