@@ -59,7 +59,7 @@ PDF / DOCX / TXT Resume
   SBERT Embeddings
   (Semantic understanding)
          ↓
-  8-Factor Weighted Scoring
+  7-Factor Weighted Scoring
          ↓
   Cross-Encoder Re-ranking
          ↓
