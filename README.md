@@ -148,7 +148,7 @@ resume-screening-system/
 ├── backend/
 │   ├── main.py              ← FastAPI app, all endpoints
 │   ├── resume_parser.py     ← PDF/DOCX/TXT text extraction for resume
-│   ├── matcher.py           ← 8-factor scoring pipeline
+│   ├── matcher.py           ← 7-factor scoring pipeline
 │   ├── auth.py              ← JWT + bcrypt authentication
 │   ├── database.py          ← JSON-based user storage
 │   ├── requirements.txt     ← Python dependencies
