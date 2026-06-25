@@ -1,6 +1,6 @@
 # 🤖 AI Resume Screening System
 
-An intelligent, full-stack resume screening system that automates candidate shortlisting using NLP and Machine Learning. Upload a Job Description and multiple resumes — the system ranks candidates by relevance using a production-grade 8-factor scoring pipeline.
+An intelligent, full-stack resume screening system that automates candidate shortlisting using NLP and Machine Learning. Upload a Job Description and multiple resumes — the system ranks candidates by relevance using a production-grade 7-factor scoring pipeline.
 
 ---
 
